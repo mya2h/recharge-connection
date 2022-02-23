@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import enTranslations from '@shopify/polaris/locales/en.json';
 import axios from "axios"
+
 function App() {
   var url = "https://www.admin.rechargeapps.com/oauth/token"
   const data = {
